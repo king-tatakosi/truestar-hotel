@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 \"C:\\\\Users\\\\DELL LATITUDE 7480\\\\.claude\\\\skills\\\\ui-ux-pro-max\\\\scripts\\\\search.py\" \"african hotel hospitality luxury warm dark elegant\" --design-system -p \"AfriStay Hotel Template\" -f markdown)",
+      "Bash(dir \"c:\\\\Users\\\\DELL LATITUDE 7480\\\\Documents\\\\Dev\\\\Frontend\\\\hotel templates\\\\template3\")",
+      "Bash(npm install *)",
+      "Bash(npm list *)",
+      "Bash(node -e \"require\\('./node_modules/lucide-react'\\)\")",
+      "Bash(npm run *)",
+      "Read(//c/Users/DELL LATITUDE 7480/.claude/projects/c--Users-DELL-LATITUDE-7480-Documents-Dev-Frontend-hotel-templates-template3/**)"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\DELL LATITUDE 7480\\.claude\\projects\\c--Users-DELL-LATITUDE-7480-Documents-Dev-Frontend-hotel-templates-template3\\memory"
+    ]
+  }
+}

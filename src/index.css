@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-dark-700 text-cream-200 font-body;
+    min-height: 100vh;
+  }
+
+  * {
+    @apply box-border;
+  }
+
+  *:focus-visible {
+    @apply outline-2 outline-offset-2 outline-gold-500;
+  }
+
+  ::selection {
+    @apply bg-gold-500/20 text-cream-200;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-dark-600;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gold-600 rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-gold-500;
+  }
+}
+
+@layer components {
+  .section-padding {
+    @apply py-16 md:py-24 lg:py-32;
+  }
+
+  .container-max {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .gold-divider {
+    @apply w-16 h-0.5 bg-gradient-to-r from-gold-500 to-gold-300 rounded-full;
+  }
+
+  .card-base {
+    @apply bg-dark-400 border border-gold-500/15 rounded-2xl overflow-hidden;
+    @apply transition-all duration-300;
+  }
+
+  .card-base:hover {
+    @apply border-gold-500/35 shadow-card-hover;
+    transform: translateY(-4px);
+  }
+
+  .btn-gold {
+    @apply bg-gold-500 hover:bg-gold-400 text-white font-semibold;
+    @apply px-6 py-3 rounded-xl transition-all duration-200 cursor-pointer;
+    @apply flex items-center justify-center gap-2 font-body;
+    @apply shadow-gold-sm hover:shadow-gold;
+  }
+
+  .btn-outline {
+    @apply border border-gold-500/50 hover:border-gold-500 text-gold-600;
+    @apply hover:bg-gold-500/10 font-medium;
+    @apply px-6 py-3 rounded-xl transition-all duration-200 cursor-pointer;
+    @apply flex items-center justify-center gap-2 font-body;
+  }
+
+  .text-gradient-gold {
+    @apply bg-gold-gradient bg-clip-text text-transparent;
+  }
+}
+
+@layer utilities {
+  /* Espresso-toned dark background for hero — contrasts against light page */
+  .bg-hero-pattern {
+    background:
+      radial-gradient(ellipse at 20% 60%, rgba(0, 164, 180, 0.10) 0%, transparent 55%),
+      radial-gradient(ellipse at 80% 20%, rgba(0, 137, 160, 0.08) 0%, transparent 45%),
+      linear-gradient(160deg, #1A1008 0%, #2B1E17 35%, #3D2B1F 65%, #2B1E17 100%);
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  html { scroll-behavior: auto; }
+}

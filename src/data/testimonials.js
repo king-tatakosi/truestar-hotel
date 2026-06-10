@@ -1,0 +1,67 @@
+export const testimonials = [
+  {
+    id: 1,
+    name: "Kwame Mensah",
+    location: "Accra, Ghana",
+    initials: "KM",
+    color: "from-red-700 to-red-900",
+    rating: 5,
+    title: "Best Hotel Experience in Kumasi!",
+    review:
+      "I travel to Kumasi regularly for business and True Star Hotel has become my go-to. The rooms are immaculate, the staff are warm and attentive, and the food is absolutely fantastic. It truly feels like a home away from home. Highly recommended to anyone visiting the Garden City.",
+    date: "March 2025",
+    roomType: "Executive Room",
+  },
+  {
+    id: 2,
+    name: "Abena Asante",
+    location: "Kumasi, Ghana",
+    initials: "AA",
+    color: "from-amber-600 to-orange-800",
+    rating: 5,
+    title: "Wonderful Stay for Our Anniversary",
+    review:
+      "My husband and I celebrated our wedding anniversary at True Star and it was absolutely perfect. The room was beautifully prepared, the pool was so refreshing, and the restaurant served us an amazing dinner. The staff went above and beyond to make our evening special. We will definitely be back!",
+    date: "February 2025",
+    roomType: "Superior Room",
+  },
+  {
+    id: 3,
+    name: "Emmanuel Boateng",
+    location: "Takoradi, Ghana",
+    initials: "EB",
+    color: "from-teal-600 to-emerald-800",
+    rating: 5,
+    title: "Professional & Clean — 10/10",
+    review:
+      "I hosted a business meeting at True Star Hotel and I couldn't have chosen a better venue. The environment was professional, the meeting facilities were well-equipped, and the hospitality was top-tier. Every guest I brought was impressed. True Star lives up to its name.",
+    date: "January 2025",
+    roomType: "Executive Room",
+  },
+  {
+    id: 4,
+    name: "Adwoa Ofori",
+    location: "Tamale, Ghana",
+    initials: "AO",
+    color: "from-purple-600 to-violet-800",
+    rating: 5,
+    title: "Comfortable Rooms & Great Food",
+    review:
+      "The rooms at True Star are spacious, very clean, and well air-conditioned. The restaurant serves excellent local and continental food. The staff are always smiling and ready to help. I am always treated like a VIP whenever I stay here. True Star is simply the best in Kumasi.",
+    date: "April 2025",
+    roomType: "Standard Room",
+  },
+  {
+    id: 5,
+    name: "Richard Acheampong",
+    location: "London, UK",
+    initials: "RA",
+    color: "from-blue-600 to-indigo-800",
+    rating: 5,
+    title: "A Gem in the Heart of Kumasi",
+    review:
+      "As a Ghanaian living abroad, I always stay at True Star Hotel when I visit family in Kumasi. The quality is outstanding for the price — clean rooms, fast Wi-Fi, good security, and genuinely kind staff. It's one of the best-value hotels I've stayed at anywhere in West Africa.",
+    date: "December 2024",
+    roomType: "Superior Room",
+  },
+]

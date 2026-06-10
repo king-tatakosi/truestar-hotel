@@ -1,0 +1,38 @@
+export const hotelData = {
+  name: "True Star Hotel",
+  initials: "TS",
+  type: "Hotel & Suites",
+  tagline: "Your Comfort, Our Priority in the Heart of Kumasi",
+  description:
+    "True Star Hotel is Kumasi's premier destination for comfort, elegance, and warm Ghanaian hospitality. Ideally located in the heart of the Garden City, we offer modern rooms, exceptional dining, and world-class amenities — all delivered with the genuine care that defines us.",
+  established: "2015",
+  phone: "032 249 0140",
+  phoneRaw: "0322490140",
+  whatsapp: "233322490140",
+  whatsappMessage: "Hello! I'd like to make a reservation at True Star Hotel, Kumasi.",
+  email: "info@truestarhotel.com.gh",
+  address: "PCFP+V8, Unnamed Road",
+  city: "Kumasi",
+  country: "Ghana",
+  postalCode: "",
+  googleMapsUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.952912260219!2d-1.6231!3d6.6885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwNDEnMTguNiJOIDHCsDM3JzIzLjIiVw!5e0!3m2!1sen!2sgh!4v1234567890",
+  checkIn: "12:00",
+  checkOut: "11:00",
+  socialLinks: {
+    facebook: "https://facebook.com/truestarhotel",
+    instagram: "https://instagram.com/truestarhotel",
+    twitter: "https://twitter.com/truestarhotel",
+    tripadvisor: "https://tripadvisor.com/truestarhotel",
+  },
+  stats: [
+    { value: "40+", label: "Rooms & Suites" },
+    { value: "4.8", label: "Guest Rating" },
+    { value: "8k+", label: "Happy Guests" },
+  ],
+  highlights: [
+    "Prime location in the heart of Kumasi",
+    "Swimming pool & recreational facilities",
+    "Fully air-conditioned rooms & suites",
+    "24/7 security & room service",
+  ],
+}
