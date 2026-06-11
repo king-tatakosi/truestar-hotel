@@ -3,7 +3,7 @@ export const faqs = [
     id: 1,
     question: "Where is True Star Hotel located?",
     answer:
-      "True Star Hotel is located at PCFP+V8, Unnamed Road, Kumasi, Ghana — right in the heart of the Garden City. We are easily accessible from Kumasi city centre and major landmarks. Our team can provide detailed directions upon request.",
+      "True Star Hotel is located at Duase Buobang, Asokore Mampong, Kumasi, Ghana — right in the heart of the Garden City. We are easily accessible from Kumasi city centre and major landmarks. Our team can provide detailed directions upon request.",
   },
   {
     id: 2,

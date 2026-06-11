@@ -12,6 +12,7 @@
   body {
     @apply bg-dark-700 text-cream-200 font-body;
     min-height: 100vh;
+    overflow-x: hidden;
   }
 
   * {
@@ -106,4 +107,28 @@
     transition-duration: 0.01ms !important;
   }
   html { scroll-behavior: auto; }
+}
+
+/* Mobile: disable backdrop-filter and heavy shadows for <=1024px to improve performance */
+@media (max-width: 1024px) {
+  /* Remove backdrop filters (and vendor prefixed versions) globally on small screens */
+  * {
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+  }
+
+  /* Tone down or remove heavy box-shadows used by components */
+  .shadow-card-hover,
+  .shadow-gold,
+  .shadow-gold-sm,
+  .shadow,
+  .shadow-lg,
+  .shadow-xl {
+    box-shadow: none !important;
+  }
+
+  /* Also ensure any inline or utility-based shadows are neutralized */
+  [class*="shadow-"] {
+    box-shadow: none !important;
+  }
 }

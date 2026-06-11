@@ -11,7 +11,7 @@ export const hotelData = {
   whatsapp: "233322490140",
   whatsappMessage: "Hello! I'd like to make a reservation at True Star Hotel, Kumasi.",
   email: "info@truestarhotel.com.gh",
-  address: "PCFP+V8, Unnamed Road",
+  address: "Duase Buobang, Asokore Mampong, Kumasi",
   city: "Kumasi",
   country: "Ghana",
   postalCode: "",
